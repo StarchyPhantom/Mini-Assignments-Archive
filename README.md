@@ -5,4 +5,4 @@ C projects are prefixed with a single letter a/l
 Showcases: Binary trees, AVLs, heaps, graphs, Djikstra's algorithm, and Primm's algorithm
 
 Java projects are prefixed by huyn3702
-Showcases: 
+Showcases: Binary trees, AVLs, linked stacks/queues, inner classes, and Java Swing
