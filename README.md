@@ -9,3 +9,6 @@ Showcases: Binary trees, AVLs, linked stacks/queues, inner classes, and Java Swi
 
 Python projects end with py, m, or have "fintech" in the name
 Showcases: Binary trees, AVLs, linked stacks/queues, assorted data structures
+
+ARM projects in CP216 folder
+Showcases: Subroutines, peripherals (input/output with UART), and interrupt handling.
