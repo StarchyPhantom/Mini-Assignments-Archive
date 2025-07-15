@@ -1,0 +1,21 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    Jan 21 2025
+-------------------------------------------------------
+Answers for Lab 3
+-------------------------------------------------------
+
+Task 1
+the value in r3 is:
+in decimal: -1
+in hexadecimal: ffffffff
+
+Task 2
+the address of COUNTER in hexadecimal is: 00001020
+
+Task 3
+Upon switching to storing LED_BITS and DELAY_TIME in memory, nothing has changed, meaning they were changed correctly. Changing the delay time to 100000000 from 200000000, the LEDs change noticeably faster. For the LED bits, changing to 0x0FFFFFF from 0x0F0F0F0F, made all the LEDs light up, and changing to 0x0000FFFF made the LEDs all light up and power down, like a train passing by, changing to 0x00000001 made a lone light occasionally pass by. 0xFFFFF000 was like 0x0000FFFF, but the train was longer. 0x000000FF gives a train of 6, 0x0000000F gives a train of 4 with a long gap.

@@ -1,0 +1,23 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    Mar 21 2025
+-------------------------------------------------------
+Answers for Lab 8
+-------------------------------------------------------
+
+Task 1
+clock frequency = 100MHz
+100MHz = 100,000,000Hz
+100,000,000Hz = 1/100,000,000 seconds
+(2 seconds) / (1/100,000,000 seconds) = 200,000,000 clock pulses
+Made a new constant "INTTIME"
+
+Task 2
+sets the timer by splitting the higher 16 and lower 16 bits of "INTTIME" to their respective registers, and started the counter
+
+Task 3
+tbh just took code from lab 7 task 1, since it's just printing a char array to UART, then resetting the timer

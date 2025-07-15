@@ -1,0 +1,26 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author  Benjamin Huynh
+ID      169,053,702
+Email   huyn3702@mylaurier.ca
+Date    1/16/2025
+-------------------------------------------------------
+Answers for Lab 1
+-------------------------------------------------------
+
+Task 1
+No change, still sums to 17 (hex) 
+
+Task 2
+It is legal to add r3 to r3 in r3
+
+Task 3
+4 and 5 on their own cannot be added to r4, but upon using r5 to store 4, adding r5 and 5 to r4 is possible
+
+r0 00000009
+r1 0000000e
+r2 00000017
+r3 00000010
+r4 00000009
+r5 00000004

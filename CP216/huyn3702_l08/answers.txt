@@ -1,0 +1,29 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    Mar 21 2025
+-------------------------------------------------------
+Answers for Lab 8
+-------------------------------------------------------
+
+Task 1
+Loads from and iterates through strings like previous labs, and then prints to UART if possible
+
+Task 2
+Reads from UART, and copies to the destinations like in previous labs
+
+Task 3
+Tested with the below (ran multiple times, stops after "enter"):
+
+skibidi                                                                                             
+once upon a time                                                                                    
+there lived two races                                                                               
+humans and monsters                                                                                 
+one day                                                                                             
+war broke out                                                                                       
+between the two races                                                                               
+
+Really just combined task 1 and task 2

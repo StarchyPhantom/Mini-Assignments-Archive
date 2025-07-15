@@ -1,0 +1,22 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    Mar 07 2025
+-------------------------------------------------------
+Answers for Lab 6
+-------------------------------------------------------
+
+Task 1
+1 in r0
+idk what else to say, registers were preserved, values read from stack, and popped later
+
+Task 2
+-9 and 12 in memory
+pushed to the stack so it could be read by the subroutine
+
+Task 3
+"pandem" after the 2 other words in memory
+did both things

@@ -1,0 +1,45 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    1/16/2025
+-------------------------------------------------------
+Answers for Lab 2
+-------------------------------------------------------
+
+Task 1
+':' instead of ';'/' '
+'B' and 'A' instead of '=B' and '=A'
+'[r0]' on the add line instead of no brackets
+
+Task 2
+str r2, r3 instead of str r2, [r3]
+=Difff instead of =Diff
+
+Task 3
+
+comment changed, doesn't make sense to copy second element again
+
+second element code:
+add r0, r0, #2
+add r1, r1, #2
+changed to:
+add r0, r0, #4
+add r1, r1, #4
+due to misaligned addresses
+
+third element code:
+add r1, r1, #4
+add r1, r1, #4
+ldr r2, [r0]
+str r2, [r2]
+changed to:
+add r0, r0, #4
+add r1, r1, #4
+ldr r2, [r0]
+str r2, [r1]
+since the address stored in r1 is shifted twice, and it doesn't make sense to store the value at r2 into the value held by the address at r2, since r2 is not an address
+
+.word (initialized data) cannot be under .bss (Uninitialized data section), so it was changed to .space instead

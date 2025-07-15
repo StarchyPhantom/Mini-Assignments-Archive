@@ -1,0 +1,19 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    Feb 11 2025
+-------------------------------------------------------
+Answers for Lab 4
+-------------------------------------------------------
+
+Task 1
+16
+
+Task 2
+number of bytes can be calculated by taking difference of the beginning address and end address of the array
+
+Task 3
+-9, 12

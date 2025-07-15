@@ -1,0 +1,16 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Benjamin Huynh
+ID:      169053702
+Email:   huyn3702@mylaurier.ca
+Date:    Mar 14 2025
+-------------------------------------------------------
+Answers for Lab 7
+-------------------------------------------------------
+
+Task 1
+lr changed to a different value when other functions were called, so that values that allows exit back to the main program has to be preserved
+
+Task 2
+Checks for the next letter at either end, then compare the ends, increment/decrement the front/end pointers and recurse if the ends are the same and front address < end address
